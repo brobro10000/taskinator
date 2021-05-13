@@ -209,7 +209,7 @@ var loadTasks = function () {
   var tasks = localStorage.getItem("tasks")
   console.log(tasks)
   if (tasks == null) {
-    var tasks = [];
+    tasks = [];
     return false;
   }
   tasks = JSON.parse(tasks);
